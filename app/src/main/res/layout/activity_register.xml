@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B2FF59"
+    android:padding="5dp"
+    android:orientation="vertical"
+    tools:context=".Register">
+
+<!--    <TextView-->
+<!--        android:id="@+id/textView3"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_gravity="center_horizontal"-->
+<!--        android:text="Create New Account"-->
+<!--        android:textColor="#D50000"-->
+<!--        android:textSize="24sp"-->
+<!--        android:textStyle="bold|italic" />-->
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#0091EA"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/name"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="   Full Name"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0091EA"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/email"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="   Email"
+        android:inputType="textEmailAddress"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0091EA"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/password"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="   Password"
+        android:inputType="textPassword"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextPhone"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#0091EA"
+        android:backgroundTintMode="src_in"
+        android:drawableLeft="@drawable/phone"
+        android:ems="10"
+        android:foregroundTint="#FFFFFF"
+        android:hint="   Phone"
+        android:inputType="phone"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/store"
+        android:ems="10"
+        android:hint="   Enter Shop Name"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName4"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:drawableLeft="@drawable/store1"
+        android:ems="10"
+        android:hint="   Enter Shop Full Address"
+        android:inputType="textPersonName"
+        android:textColorHint="#000000"
+        android:textStyle="bold|italic" />
+
+    <Button
+        android:id="@+id/location"
+        android:layout_width="80dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="280dp"
+        android:text="SET" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:text="Register" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="9dp"
+        android:text="I'm already a member"
+        android:textColor="#304FFE"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:attr/progressBarStyle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:visibility="invisible" />
+
+</LinearLayout>

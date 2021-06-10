@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "47270772154",
+    "firebase_url": "https://medicamet-d4dc8.firebaseio.com",
+    "project_id": "medicamet-d4dc8",
+    "storage_bucket": "medicamet-d4dc8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:47270772154:android:7aa14968ce2c50c3cdb183",
+        "android_client_info": {
+          "package_name": "com.example.android.medicamet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "47270772154-n0qka0vfqrdsrb805fut1kg710j6cfa1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDmMhJrXNZz3idBUsJWuMVbkHADrb6AZY4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "47270772154-n0qka0vfqrdsrb805fut1kg710j6cfa1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
